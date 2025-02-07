@@ -3,10 +3,10 @@ import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 // Replace these with your environment variables or actual credentials
-const SMTP_HOST = env.process.SMTP_HOST;
-const SMTP_PORT = env.process.SMTP_PORT;
-const SMTP_USER = env.process.SMTP_USER;
-const SMTP_PASS = env.process.SMTP_PASS;
+const SMTP_HOST = process.env.SMTP_HOST;
+const SMTP_PORT = process.env.SMTP_PORT;
+const SMTP_USER = process.env.SMTP_USER;
+const SMTP_PASS = process.env.SMTP_PASS;
 
 export async function POST(request) {
   try {
