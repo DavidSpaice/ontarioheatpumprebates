@@ -12,6 +12,8 @@ export default function Contact() {
     message: "",
   });
 
+  const [sendStatus, setSendStatus] = useState("idle");
+
   // Handle form field changes
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -21,9 +23,10 @@ export default function Contact() {
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setSendStatus("idle"); // reset status
 
     try {
-      // Example fetch to an API endpoint '/api/contact' (create or adjust as needed)
+      // POST request to our route handler
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -34,15 +37,14 @@ export default function Contact() {
         throw new Error("Failed to send form data");
       }
 
-      // Clear form after successful submission, or display success message, etc.
+      // Clear form after successful submission
       setFormData({ name: "", email: "", phone: "", message: "" });
-      alert("Your message has been sent successfully!");
+      setSendStatus("success");
     } catch (error) {
       console.error(error);
-      alert("Oops! Something went wrong. Please try again later.");
+      setSendStatus("error");
     }
   };
-
   return (
     <div className="container position-relative">
       <div className="row">
@@ -221,12 +223,25 @@ export default function Contact() {
                     </div>
                   </div>
                 </div>
+                {/* Submission Result */}
                 <div
                   id="result"
                   role="region"
                   aria-live="polite"
                   aria-atomic="true"
-                />
+                  className="mt-3"
+                >
+                  {sendStatus === "success" && (
+                    <p className="text-success">
+                      Your message has been sent successfully!
+                    </p>
+                  )}
+                  {sendStatus === "error" && (
+                    <p className="text-danger">
+                      Something went wrong. Please try again later.
+                    </p>
+                  )}
+                </div>
               </form>
               {/* End Contact Form */}
             </div>

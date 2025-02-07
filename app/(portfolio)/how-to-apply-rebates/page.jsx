@@ -2,6 +2,7 @@
 import AnimatedText from "@/components/common/AnimatedText";
 import Footer6 from "@/components/footers/Footer6";
 import Header6 from "@/components/headers/Header6";
+import LeadForm from "@/components/common/LeadForm";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -183,107 +184,10 @@ export default function HowToApplyRebatesPage() {
 
                   {/* Right Column: Form */}
                   <div className="col-lg-4">
-                    <div className="box-shadow round p-4 p-sm-5 text-dark">
-                      <h5 className="mb-3">
-                        Are You Going to Implement Project?
-                      </h5>
-                      <form
-                        onSubmit={handleFormSubmit}
-                        className="form contact-form"
-                      >
-                        <div className="row">
-                          {/* Name */}
-                          <div className="col-md-12 mb-3">
-                            <label htmlFor="name" className="form-label">
-                              Name
-                            </label>
-                            <input
-                              type="text"
-                              name="name"
-                              id="name"
-                              className="input-lg round form-control"
-                              placeholder="Enter your name"
-                              required
-                              value={formData.name}
-                              onChange={handleFormChange}
-                            />
-                          </div>
-                          {/* Phone */}
-                          <div className="col-md-12 mb-3">
-                            <label htmlFor="phone" className="form-label">
-                              Phone
-                            </label>
-                            <input
-                              type="tel"
-                              name="phone"
-                              id="phone"
-                              className="input-lg round form-control"
-                              placeholder="Enter your phone number"
-                              required
-                              value={formData.phone}
-                              onChange={handleFormChange}
-                            />
-                          </div>
-                          {/* Email */}
-                          <div className="col-md-12 mb-3">
-                            <label htmlFor="email" className="form-label">
-                              Email
-                            </label>
-                            <input
-                              type="email"
-                              name="email"
-                              id="email"
-                              className="input-lg round form-control"
-                              placeholder="Enter your email"
-                              required
-                              value={formData.email}
-                              onChange={handleFormChange}
-                            />
-                          </div>
-                        </div>
-                        {/* Message */}
-                        <div className="mb-3">
-                          <label htmlFor="message" className="form-label">
-                            Message
-                          </label>
-                          <textarea
-                            name="message"
-                            id="message"
-                            className="input-lg round form-control"
-                            style={{ height: 130 }}
-                            placeholder="Enter your message"
-                            value={formData.message}
-                            onChange={handleFormChange}
-                          />
-                        </div>
-                        <div className="row">
-                          <div className="col-md-6">
-                            <button
-                              type="submit"
-                              className="submit_btn btn btn-mod btn-color btn-large btn-round btn-hover-anim w-100"
-                              aria-controls="result"
-                            >
-                              <span>Send</span>
-                            </button>
-                          </div>
-                          <div className="col-md-6 d-flex align-items-center">
-                            <div className="form-tip w-100 pt-3 mt-sm-20">
-                              <i className="icon-info size-16" />
-                              All fields are required. By sending the form, you
-                              agree to the{" "}
-                              <a href="#">Terms &amp; Conditions</a> and{" "}
-                              <a href="#">Privacy Policy</a>.
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          id="result"
-                          role="region"
-                          aria-live="polite"
-                          aria-atomic="true"
-                        />
-                      </form>
-                    </div>
+                    <LeadForm
+                      title="Are You Going to Implement Project?"
+                      description=""
+                    />
                   </div>
                 </div>
               </div>

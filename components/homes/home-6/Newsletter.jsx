@@ -1,7 +1,36 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
+
 export default function Newsletter() {
+  const [email, setEmail] = useState("");
+  // "idle" | "success" | "error"
+  const [sendStatus, setSendStatus] = useState("idle");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setSendStatus("idle"); // reset status
+
+    try {
+      const res = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      if (!res.ok) {
+        throw new Error("Failed to subscribe");
+      }
+
+      // Clear the field upon success
+      setEmail("");
+      setSendStatus("success");
+    } catch (error) {
+      console.error(error);
+      setSendStatus("error");
+    }
+  };
+
   return (
     <div className="container">
       <div className="row">
@@ -17,28 +46,10 @@ export default function Newsletter() {
                 className="w-100"
               />
             </div>
-            {/*    <div className="small text-gray text-center">
-              Illustration by{" "}
-              <a
-                href="https://icons8.com/illustrations/author/TQQ1qAnr9rn5"
-                rel="noopener nofollow"
-                target="_blank"
-              >
-                Oleg Shcherba{" "}
-              </a>
-              from{" "}
-              <a
-                href="https://icons8.com/illustrations"
-                rel="noopener nofollow"
-                target="_blank"
-              >
-                Ouch
-              </a>
-              !
-            </div> */}
           </div>
         </div>
         {/* End Images */}
+
         {/* Section Text */}
         <div className="col-lg-6 col-xl-5 d-flex align-items-center order-first order-lg-last mb-md-60 mb-sm-40">
           <div className="w-100">
@@ -51,11 +62,7 @@ export default function Newsletter() {
               Subscribe to our weekly newsletter and never miss out on exclusive
               offers and innovative solutions.
             </p>
-            <form
-              onSubmit={(e) => e.preventDefault()}
-              id="mailchimp"
-              className="form"
-            >
+            <form id="mailchimp" className="form" onSubmit={handleSubmit}>
               <div className="d-sm-flex justify-content-between mb-3">
                 <label htmlFor="newsletter-email" className="visually-hidden">
                   Your email
@@ -69,6 +76,8 @@ export default function Newsletter() {
                   pattern=".{5,100}"
                   required
                   aria-required="true"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
                 <button
                   type="submit"
@@ -88,7 +97,20 @@ export default function Newsletter() {
                 role="region"
                 aria-live="polite"
                 aria-atomic="true"
-              />
+                className="mt-3"
+              >
+                {sendStatus === "success" && (
+                  <p className="text-success">
+                    Subscription successful! Check your inbox for a confirmation
+                    email.
+                  </p>
+                )}
+                {sendStatus === "error" && (
+                  <p className="text-danger">
+                    Something went wrong. Please try again later.
+                  </p>
+                )}
+              </div>
             </form>
           </div>
         </div>
