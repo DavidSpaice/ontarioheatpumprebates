@@ -52,7 +52,7 @@ export default function Hero1() {
                   data-wow-duration="1.2s"
                 >
                   <a
-                    href="#about"
+                    href="#contact"
                     className="btn btn-mod btn-color btn-large btn-round btn-hover-anim me-1 mb-xs-10"
                   >
                     <span>CONSULT NOW</span>
