@@ -79,7 +79,7 @@ export default function AboutPage() {
                       className="section-descr mb-40 mb-sm-20 wow fadeInUp"
                       data-wow-delay="0.06s"
                     >
-                      Heat Pump Rebates Ontario, located in Ontario, Ontario,
+                      Heat Pump Rebates Ontario, located in Ontario,
                       Canada, is strategically positioned to efficiently serve
                       our customers throughout the city. As a leading provider
                       of energy-efficient heating and cooling solutions, we
