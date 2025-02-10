@@ -98,31 +98,32 @@ export const features2 = [
 
 export const featuresTitle3 = [
   {
-    title: "Identifying When Your Heat Pump Needs Maintenance",
+    title: "Is Your Heat Pump Trying to Tell You Something?",
   },
   {
-    subtitle: "Essential Signs Your Heat Pump Needs Professional Care",
+    subtitle:
+      "Don't ignore the signs! If your heat pump is acting up, it might be time for professional attention. Here's how to spot when your system needs repair:",
   },
 ];
 
 export const features3 = [
   {
-    text: "Are you having trouble heating or cooling your space evenly? It's time to have your heat pump inspected.",
+    text: "Unusual noises or vibrations",
   },
   {
-    text: "Unusual or loud noises coming from your unit may indicate a mechanical problem that requires professional attention.",
+    text: "Reduced heating or cooling performance",
   },
   {
-    text: "Excessive ice or frost on your heat pump is a clear sign that there is a malfunction that is affecting its efficiency.",
+    text: "Higher-than-usual energy bills",
   },
   {
-    text: "A noticeable increase in your energy costs may indicate that your heat pump is losing efficiency.",
+    text: "Frequent cycling on and off",
   },
   {
-    text: "Reduced airflow can be a sign of a clogged or failing component within your system.",
+    text: "Strange odors or poor air quality",
   },
   {
-    text: "If you are having trouble maintaining your set temperature, your thermostat or heat pump control unit may need to be adjusted or replaced.",
+    text: "Trouble for maintaining temperature",
   },
 ];
 

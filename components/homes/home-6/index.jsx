@@ -259,7 +259,7 @@ export default function Home6({ onePage = false, dark = false }) {
       >
         {dark ? <TestimonialsDark /> : <Testimonials />}
       </section>
-      <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
+     {/*  <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
@@ -267,7 +267,7 @@ export default function Home6({ onePage = false, dark = false }) {
         id="blog"
       >
         <Blog />
-      </section>
+      </section> */}
 
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
 

@@ -236,22 +236,22 @@ export const services6 = [
 export const services7 = [
   {
     src: "/assets/images/demo-fancy/services/service-1.png",
-    title: "Efficiency Enhancement",
-    text: "Regular maintenance ensures your heat pump operates at peak efficiency, significantly reducing your energy bills and environmental impact.",
+    title: "Boost Efficiency and Save Money",
+    text: "Regular maintenance keeps your heat pump running at its best, helping you cut down on energy costs while reducing your carbon footprint. It's a win-win for your wallet and the planet.",
   },
   {
     src: "/assets/images/demo-fancy/services/service-2.png",
-    title: "Reliability Assurance",
-    text: "Proactive servicing minimizes the risk of unexpected breakdowns, keeping your heating and cooling reliable no matter the weather conditions.",
+    title: "Stay Comfortable Year-Round",
+    text: "By staying on top of servicing, you can avoid sudden breakdowns and ensure your heating and cooling systems work reliably, no matter how extreme the weather gets.",
   },
   {
     src: "/assets/images/demo-fancy/services/service-3.png",
-    title: "Lifespan Extension",
-    text: "Routine checks and care extend the operational lifespan of your heat pump, providing greater value and a higher return on your investment.",
+    title: "Get More Out of Your Investment",
+    text: "Routine check-ups and care can significantly extend the life of your heat pump, giving you more value for your money and delaying the need for costly replacements.",
   },
   {
     src: "/assets/images/demo-fancy/services/service-4.png",
-    title: "Air Quality Improvement",
-    text: "Our maintenance services include cleaning key components and air ducts to remove dust and allergens, thereby improving the air quality inside your home.",
+    title: "Breathe Easier at Home",
+    text: "Our maintenance services include thorough cleaning of key components and air ducts, removing dust and allergens to improve the air quality in your home. It's a simple way to create a healthier living environment.",
   },
 ];
