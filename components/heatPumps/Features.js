@@ -25,7 +25,7 @@ export default function Features({
           <div className="w-100">
             <div className="mb-20">
               <Image
-                src="/assets/images/demo-fancy/section-image-7.png"
+                src="/assets/images/demo-fancy/section-image-heat-pump.png"
                 alt="Image Description"
                 width={1200}
                 height={658}
