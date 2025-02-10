@@ -14,7 +14,21 @@ import Form3 from "@/components/newsletterForms/Form3";
 const onePage = false;
 const dark = false;
 
+export const metadata = {
+  title: "Latest News & Updates on Heat Pump Rebates in Ontario",
+  description:
+    "Stay updated with the latest expert insights, guides, and news on heat pump rebates in Ontario. Unlock energy savings and boost your home's efficiency with our comprehensive resources.",
+};
+
 export default function BlogPage() {
+  const truncateText = (text, wordLimit = 50) => {
+    if (!text) return "";
+    const words = text.split(" ");
+    if (words.length > wordLimit) {
+      return words.slice(0, wordLimit).join(" ") + " ...";
+    }
+    return text;
+  };
   return (
     <>
       <div className="theme-fancy">
@@ -91,26 +105,26 @@ export default function BlogPage() {
                         key={i}
                         className="post-prev col-md-6 col-lg-4 mt-50"
                       >
-                        <div className="post-prev-container">
-                          <div className="post-prev-img">
-                            <Link href={`/fancy-blog-single/${elm.id}`}>
+                        <Link
+                          href={`/blog/${elm.id}`}
+                          className="text-decoration-none"
+                        >
+                          <div className="post-prev-container">
+                            <div className="post-prev-img">
                               <Image
                                 src={elm.imgSrc}
                                 width={620}
                                 height={436}
                                 alt="Add Image Description"
                               />
-                            </Link>
-                          </div>
-                          <h4 className="post-prev-title">
-                            <Link href={`/fancy-blog-single/${elm.id}`}>
-                              {elm.title}
-                            </Link>
-                          </h4>
-                          <div className="post-prev-text">{elm.text}</div>
-                          <div className="post-prev-info clearfix">
-                            <div className="float-start">
-                              <a href="#">
+                            </div>
+                            <h4 className="post-prev-title">{elm.title}</h4>
+                            <div className="post-prev-text">
+                              {truncateText(elm.text, 50)}
+                            </div>
+                            <div className="post-prev-info clearfix">
+                              <div className="float-start">
+                                {/*   <a href="#">
                                 <Image
                                   className="post-prev-author-img"
                                   width={30}
@@ -118,14 +132,15 @@ export default function BlogPage() {
                                   src={elm.authorImg}
                                   alt="Image Description"
                                 />
-                              </a>
-                              <a href="#">{elm.authorName}</a>
-                            </div>
-                            <div className="float-end">
-                              <a href="#">{elm.authorName}</a>
+                              </a> */}
+                                {/*    <a href="#">{elm.authorName}</a> */}
+                              </div>
+                              <div className="float-end">
+                                <span>{elm.authorName}</span>
+                              </div>
                             </div>
                           </div>
-                        </div>
+                        </Link>
                       </div>
                     ))}
                     {/* End Post Item */}

@@ -14,11 +14,11 @@ import Link from "next/link";
 const onePage = false;
 const dark = false;
 export const metadata = {
-  title:
-    "Fancy About || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "About Us - Serving Ontarionians with Dedication",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Learn about our commitment to helping Ontarionians save on energy costs through expert heat pump rebate guidance, repair, and maintenance services. Discover our story and values.",
 };
+
 export default function AboutPage() {
   return (
     <>
@@ -79,10 +79,10 @@ export default function AboutPage() {
                       className="section-descr mb-40 mb-sm-20 wow fadeInUp"
                       data-wow-delay="0.06s"
                     >
-                      Heat Pump Rebates Ontario, located in Ontario,
-                      Canada, is strategically positioned to efficiently serve
-                      our customers throughout the city. As a leading provider
-                      of energy-efficient heating and cooling solutions, we
+                      Heat Pump Rebates Ontario, located in Ontario, Canada, is
+                      strategically positioned to efficiently serve our
+                      customers throughout the city. As a leading provider of
+                      energy-efficient heating and cooling solutions, we
                       specialize in assisting both residential and commercial
                       clients in navigating the complexities of heat pump
                       rebates and installations.
@@ -177,6 +177,8 @@ export default function AboutPage() {
               <Features
                 featuresTitles={featuresTitle7}
                 features={features7}
+                imageUrl="/assets/images/demo-fancy/section-image-our-services.png"
+                imageAlt="Services Img"
                 imagePosition="left"
               />
             </section>

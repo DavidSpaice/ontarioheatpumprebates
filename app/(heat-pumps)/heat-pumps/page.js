@@ -14,11 +14,11 @@ import { fancyMultipage } from "@/data/menu";
 const onePage = false;
 const dark = false;
 export const metadata = {
-  title:
-    "Fancy Contact || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Premier Heat Pump Repair & Maintenance in Ontario",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Experience top-notch heat pump repair and maintenance services in Ontario. Our expert team ensures your system runs efficiently and reliably, keeping your home comfortable all year round.",
 };
+
 export default function HeatPumpsPage() {
   return (
     <>
@@ -83,6 +83,8 @@ export default function HeatPumpsPage() {
               <Features
                 featuresTitles={featuresTitle3}
                 features={features3}
+                imageUrl="/assets/images/demo-fancy/section-image-heat-pump.png"
+                imageAlt="Heat Pump Img"
                 imagePosition="left"
               />
             </section>

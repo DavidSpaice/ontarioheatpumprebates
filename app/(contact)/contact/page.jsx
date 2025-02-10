@@ -11,11 +11,11 @@ import Link from "next/link";
 const onePage = false;
 const dark = false;
 export const metadata = {
-  title:
-    "Fancy Contact || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Contact Us - Let's Bring Your Vision to Life",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Connect with our dedicated team to discuss your heat pump rebate, repair, and maintenance needs. Reach out today, and let us help you create a more energy-efficient and comfortable home.",
 };
+
 export default function ContactPage() {
   return (
     <>

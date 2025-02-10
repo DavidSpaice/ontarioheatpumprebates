@@ -539,94 +539,50 @@ export const blogs13 = [
 ];
 export const blogs14 = [
   {
-    id: 59,
-    imgSrc: "/assets/images/demo-fancy/blog/post-prev-1.jpg",
-    imgAlt: "Add Image Description",
-    title: "Spotlight — Equinox Collection by Shane Griffin",
-    text: "Looking for inspiration to kick it off, I stumbled across the work of Shane Griffin, an artist and director based in New York...",
-    authorImg: "/assets/images/demo-fancy/user-1.jpg",
-    authorName: "Adam Smith",
-    date: "August 3",
-  },
-  {
-    id: 60,
-    imgSrc: "/assets/images/demo-fancy/blog/post-prev-2.jpg",
-    imgAlt: "Add Image Description",
-    title: "Random Explorations with Cinema 4D and Redshift",
-    text: "Nidia Dias is a 3D designer based in the Portugal with an incredible portfolio. From the professional work done with...",
-    authorImg: "/assets/images/demo-fancy/user-2.jpg",
-    authorName: "Emma Kandel",
-    date: "August 2",
-  },
-  {
-    id: 61,
-    imgSrc: "/assets/images/demo-fancy/blog/post-prev-3.jpg",
-    imgAlt: "Add Image Description",
-    title: "Visually Identity and Branding for Mexican Restaurant",
-    text: "Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...",
-    authorImg: "/assets/images/demo-fancy/user-3.jpg",
-    authorName: "Thomas Johnson",
-    date: "August 1",
-  },
-  {
     id: 62,
-    imgSrc: "/assets/images/demo-fancy/blog/post-prev-4.jpg",
-    imgAlt: "Add Image Description",
-    title: "Strand man — an abstract 3D portrait series",
-    text: "Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...",
-    authorImg: "/assets/images/demo-fancy/user-3.jpg",
-    authorName: "Thomas Johnson",
-    date: "August 1",
+    imgSrc: "/assets/images/demo-fancy/blog/post-prev-heat-pump-1.png",
+    imgAlt: "Ontario Homeowner Reviewing Heat Pump Rebate Options",
+    title:
+      "Maximizing Heat Pump Rebates: A Step-by-Step Guide for Ontario Homeowners",
+    text: `Ontario homeowners have a lot to gain from heat pump rebates, and our comprehensive guide is designed to help you maximize these opportunities.
+
+When you begin, it's essential to understand the eligibility criteria. Start by reviewing your current heating system, energy efficiency, and local regulations. Many find that the process is simpler than expected once they get a clear picture of the requirements. Our step-by-step breakdown ensures you don't miss any critical details.
+
+This guide also covers common pitfalls and insider tips. We've gathered insights from experts in the field, including how to prepare your documentation, manage deadlines, and follow up with rebate agencies. With real-world examples and a handy checklist, you'll be well-prepared to take advantage of every incentive available.
+
+By the end, you'll not only understand how to navigate the rebate process but also how these improvements contribute to a more sustainable future. Get ready to transform your home's efficiency and boost your savings.`,
+    authorImg: "/assets/images/demo-fancy/user-4.png",
+    authorName: "Sarah Thompson",
+    date: "February 5",
   },
   {
     id: 63,
-    imgSrc: "/assets/images/demo-fancy/blog/post-prev-5.jpg",
-    imgAlt: "Add Image Description",
-    title: "Design & 3D Motion Campaign for Tylko",
-    text: "Looking for inspiration to kick it off, I stumbled across the work of Shane Griffin, an artist and director based in New York...",
-    authorImg: "/assets/images/demo-fancy/user-1.jpg",
-    authorName: "Adam Smith",
-    date: "August 3",
+    imgSrc: "/assets/images/demo-fancy/blog/post-prev-heat-pump-2.png",
+    imgAlt: "Heat Pump Rebate Documentation",
+    title: "Navigating Ontario's Heat Pump Rebate Landscape in 2025",
+    text: `The landscape of heat pump rebates in Ontario is evolving, and staying informed is more crucial than ever. In 2025, new policies and updated eligibility criteria mean that homeowners must keep up with the latest changes to secure their rebates.
+
+Our article delves into the specifics of the revised rebate program. We explain what's new this year, how to apply, and which upgrades qualify for maximum financial incentives. We also discuss how technological advancements in heat pump systems are influencing these programs and what that means for your home.
+
+In addition to policy details, we provide practical advice on how to gather necessary documentation, avoid common mistakes during the application process, and follow up effectively. With clear, concise information, this resource is an invaluable tool for anyone looking to upgrade their heating system and save money in the process.`,
+    authorImg: "/assets/images/demo-fancy/user-5.png",
+    authorName: "Michael Lee",
+    date: "February 4",
   },
   {
     id: 64,
-    imgSrc: "/assets/images/demo-fancy/blog/post-prev-6.jpg",
-    imgAlt: "Add Image Description",
-    title: "Unveiling the branding and visual Identity of Merkezsiz",
-    text: "Nidia Dias is a 3D designer based in the Portugal with an incredible portfolio. From the professional work done with...",
-    authorImg: "/assets/images/demo-fancy/user-2.jpg",
-    authorName: "Emma Kandel",
-    date: "August 2",
-  },
-  {
-    id: 65,
-    imgSrc: "/assets/images/demo-fancy/blog/post-prev-7.jpg",
-    imgAlt: "Add Image Description",
-    title: "Spotlight — Equinox Collection by Shane Griffin",
-    text: "Looking for inspiration to kick it off, I stumbled across the work of Shane Griffin, an artist and director based in New York...",
-    authorImg: "/assets/images/demo-fancy/user-1.jpg",
-    authorName: "Adam Smith",
-    date: "August 3",
-  },
-  {
-    id: 66,
-    imgSrc: "/assets/images/demo-fancy/blog/post-prev-8.jpg",
-    imgAlt: "Add Image Description",
-    title: "Random Explorations with Cinema 4D and Redshift",
-    text: "Nidia Dias is a 3D designer based in the Portugal with an incredible portfolio. From the professional work done with...",
-    authorImg: "/assets/images/demo-fancy/user-2.jpg",
-    authorName: "Emma Kandel",
-    date: "August 2",
-  },
-  {
-    id: 67,
-    imgSrc: "/assets/images/demo-fancy/blog/post-prev-9.jpg",
-    imgAlt: "Add Image Description",
-    title: "Visually Identity and Branding for Mexican Restaurant",
-    text: "Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...",
-    authorImg: "/assets/images/demo-fancy/user-3.jpg",
-    authorName: "Thomas Johnson",
-    date: "August 1",
+    imgSrc: "/assets/images/demo-fancy/blog/post-prev-heat-pump-3.png",
+    imgAlt: "Heat Pump Installation and Rebates",
+    title:
+      "Your Ultimate Resource for Ontario Heat Pump Rebates: Insider Tips and Latest Updates",
+    text: `This comprehensive resource is your go-to guide for everything related to Ontario heat pump rebates. We've compiled the latest updates, expert advice, and insider tips into one easy-to-read format. Whether you're planning a new installation or upgrading an existing system, this guide is designed to empower you with knowledge.
+
+Learn about the eligibility requirements, the application process, and the hidden benefits of installing an energy-efficient heat pump. We break down complex information into digestible pieces, complete with examples and a step-by-step action plan. Discover how rebates not only reduce upfront costs but also increase your home's long-term value.
+
+Our resource also covers frequently asked questions and debunks common myths about heat pump rebates. By following our detailed instructions, you'll be well on your way to maximizing your financial incentives while contributing to a greener environment.`,
+    authorImg: "/assets/images/demo-fancy/user-6.png",
+    authorName: "Emily Carter",
+    date: "February 3",
   },
 ];
 export const blogs15 = [
@@ -801,7 +757,7 @@ export const widgetPosts = [
   {
     id: 88,
     imgUrl: "/assets/images/blog/previews/post-prev-4.jpg",
-    title: "Hipster’s Style in Web Design and Logo",
+    title: "Hipster's Style in Web Design and Logo",
     author: "John Doe",
   },
   {

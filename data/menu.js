@@ -106,7 +106,7 @@ export const fancyMultipage = [
   { href: "/about", text: "About" },
   { href: "/rebates", text: "Rebates" },
   { href: "/how-to-apply-rebates", text: "How To Apply" },
-  { href: "/blog", text: "Blog" },
+  { href: "/blogs", text: "Blog" },
   { href: "/contact", text: "Contact" },
 ];
 

@@ -52,6 +52,6 @@ export const navigationLinks = [
   { href: "/heat-pumps", text: "Heat Pumps" },
   { href: "/rebates", text: "Rebates" },
   { href: "/how-to-apply-rebates", text: "How To Apply" },
-  { href: "/blog", text: "Blog" },
+  { href: "/blogs", text: "Blog" },
   { href: "/contact", text: "Contact" },
 ];
