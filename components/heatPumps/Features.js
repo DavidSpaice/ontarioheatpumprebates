@@ -27,7 +27,7 @@ export default function Features({
               <Image
                 src="/assets/images/demo-fancy/section-image-heat-pump.png"
                 alt="Image Description"
-                width={1200}
+                width={329}
                 height={658}
                 className="w-100"
               />
