@@ -98,17 +98,17 @@ export const features2 = [
 
 export const featuresTitle3 = [
   {
-    title: "Is Your Heat Pump Trying to Tell You Something?",
+    title:
+      "Pay attention to the signs! It could be time for professional assistance if your heat pump is performing strangely.",
   },
   {
-    subtitle:
-      "Don't ignore the signs! If your heat pump is acting up, it might be time for professional attention. Here's how to spot when your system needs repair:",
+    subtitle: "Here's how to determine if your system needs maintenance:",
   },
 ];
 
 export const features3 = [
   {
-    text: "Unusual noises or vibrations",
+    text: "Strange sounds or vibrations",
   },
   {
     text: "Reduced heating or cooling performance",
@@ -123,7 +123,7 @@ export const features3 = [
     text: "Strange odors or poor air quality",
   },
   {
-    text: "Trouble for maintaining temperature",
+    text: "Issues with temperature maintenance",
   },
 ];
 

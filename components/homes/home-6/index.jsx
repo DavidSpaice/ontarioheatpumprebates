@@ -48,12 +48,13 @@ export default function Home6({ onePage = false, dark = false }) {
                   </h3>
                   <p className="text-gray mb-0">
                     Welcome to our FAQ section where you can find answers to
-                    common questions about the Ontario Heat Pump Rebate. We
-                    cover eligibility, benefits, installation requirements, and
-                    the rebate application process. This resource is designed to
-                    help you quickly find the information you need to take
-                    advantage of an energy-efficient heat pump system. If you
-                    need more help, our team is just a call or click away.
+                    common questions about the Ontario Heat Pump Rebate. We go
+                    over eligibility, perks, installation specifications, and
+                    how to apply for a reimbursement. The purpose of this
+                    resource is to make it easy for you to locate the
+                    information you require in order to benefit from an
+                    energy-efficient heat pump system. Our staff is available by
+                    phone or online if you require additional assistance.
                   </p>
                 </div>
                 <div className="col-md-6 offset-lg-1 pt-10 pt-sm-0">
@@ -259,7 +260,7 @@ export default function Home6({ onePage = false, dark = false }) {
       >
         {dark ? <TestimonialsDark /> : <Testimonials />}
       </section>
-     {/*  <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
+      {/*  <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""

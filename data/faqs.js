@@ -29,59 +29,69 @@ export const faqDataMain = [
   {
     id: 1,
     question: "What types of heat pumps are eligible for a rebate in Ontario?",
-    answer:
-      "Only certain heat pump models that meet certain energy efficiency criteria are eligible for a rebate in Ontario. These include air source, ground source, and hybrid heat pumps. Please check our website for a detailed list of eligible models or contact our support team to confirm your eligibility for a rebate.",
+    answer: `Generally speaking, qualified heat pumps include:
+
+- Air Source Heat Pumps (ASHPs), which transport heat from your home to the outside air.
+- Cold climate Air Source Heat Pumps (ccASHPs), designed to work effectively in colder temperatures—ideal for Ontario’s climate.
+- Geothermal (ground source) heat pumps (GSHPs), which use the soil's consistent temperature for heating and cooling.
+- Heat Pump Water Heaters, which use heat pump technology to heat water more efficiently.
+
+Additionally, the heat pump system should be properly sized to meet your home's heating and cooling needs.`,
   },
   {
     id: 2,
     question:
       "Can renters apply for a heat pump rebate, or is it only for homeowners?",
-    answer:
-      "The Ontario heat pump rebate is available to both homeowners and renters, provided the property owner approves the installation. Renters must have written consent from their landlord and meet all other eligibility requirements to qualify for the rebate.",
+    answer: `Since property owners are generally responsible for making permanent changes to a property, rebate programs are typically designed with them in mind. Renters are usually not eligible unless the property owner explicitly consents and approves both the installation and the application process. If you’re a renter, consider speaking with your landlord about possible energy efficiency upgrades.`,
   },
   {
     id: 3,
     question:
       "Do I need to use a certified installer to qualify for a heat pump rebate?",
-    answer:
-      "Yes, to qualify for a heat pump rebate, installations must be performed by a certified HVAC technician. Using a certified installer will ensure that your system is installed correctly and operating at peak efficiency to qualify for the rebate. Our website provides a list of certified installers in your area..",
+    answer: `Yes. In order to qualify for rebates, the heat pump must be installed by a contractor who meets the program’s eligibility requirements. This ensures the system is installed correctly, operates efficiently, and meets local building codes. Self-installations do not qualify for rebates.`,
   },
   {
     id: 4,
     question:
-      "What documents do I need to apply for a heat pump rebate in Ontario?",
-    answer:
-      "To apply for a heat pump rebate, you will need to submit your purchase invoice, a detailed installation report from a licensed installer, and proof of the age and type of your current heating system. You may also need photos and serial numbers of the installed unit. Visit our rebate application page for a comprehensive checklist of required documents.",
+      "What paperwork is required in Ontario to apply for a heat pump rebate?",
+    answer: `Typically, the application process includes the following steps:
+
+- Pre-Installation: Submit a pre-installation form to express your interest in the program. This may require details about the proposed equipment and your property.
+- Installation: Have the heat pump installed by a program-approved contractor. Within a specified period (e.g., 90 days), submit a post-installation form along with:
+  • Final invoices and receipts
+  • Equipment details (brand, model, serial numbers)
+  • Any required permits or certifications
+
+Documentation requirements can vary by rebate program. Review the program guidelines or consult your contractor to ensure all necessary paperwork is completed and submitted on time.`,
   },
 ];
-
 export const faqDataHeatPumps = [
   {
     id: 1,
-    question: "Which types of heat pumps in Ontario can receive subsidies?",
+    question: "What kinds of heat pumps are eligible for subsidies in Ontario?",
     answer:
-      "Only heat pump models that meet specific energy efficiency standards are eligible for subsidies in Ontario. This includes air sources, ground sources, and hybrid heat pumps. Please check our website for a detailed list of eligible models, or contact our support team to confirm your eligibility. ",
+      "Only heat pump models that meet specific energy efficiency standards are eligible for subsidies in Ontario. This includes air sources, ground sources, and hybrid heat pumps. Please check our website for a detailed list of eligible models, or contact our support team to confirm your eligibility.",
   },
   {
     id: 2,
     question:
-      "Can tenants apply for heat pump subsidies, or can only homeowners do so? ",
+      "Can tenants apply for heat pump subsidies, or can only homeowners do so?",
     answer:
-      "The Ontario heat pump subsidy program is open to both homeowners and tenants, but it requires the consent of the property owner to install it. Tenants must obtain written consent from the landlord and meet all other eligibility requirements to receive subsidies. ",
+      "The Ontario heat pump subsidy program is open to both homeowners and tenants, but it requires the consent of the property owner to install it. Tenants must obtain written consent from the landlord and meet all other eligibility requirements to receive subsidies.",
   },
   {
     id: 3,
     question:
-      "Do I need to use a certified installer to receive heat pump subsidies? ",
+      "Do I need to use a certified installer to receive heat pump subsidies?",
     answer:
-      "Yes, to receive heat pump subsidies, installation must be completed by certified HVAC technicians. Using certified installers ensures that your system is correctly installed and operates at optimal efficiency to meet subsidy eligibility criteria. Our website provides a list of certified installers in your region. ",
+      "Yes, to receive heat pump subsidies, installation must be completed by certified HVAC technicians. Using certified installers ensures that your system is correctly installed and operates at optimal efficiency to meet subsidy eligibility criteria. Our website provides a list of certified installers in your region.",
   },
   {
     id: 4,
     question:
-      "What documents do I need to apply for heat pump subsidies in Ontario? ",
+      "What documents do I need to apply for heat pump subsidies in Ontario?",
     answer:
-      "When applying for heat pump subsidies, you need to submit a purchase invoice, a detailed installation report provided by a licensed installer, and proof of the current heating system's age and type. You may also need to provide photos and serial numbers of the installed units. Please visit our subsidy application page for a detailed list of required documents. ",
+      "When applying for heat pump subsidies, you need to submit a purchase invoice, a detailed installation report provided by a licensed installer, and proof of the current heating system's age and type. You may also need to provide photos and serial numbers of the installed units. Please visit our subsidy application page for a detailed list of required documents.",
   },
 ];
 

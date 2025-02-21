@@ -131,7 +131,6 @@ export const testimonialItems = [
     position: "SEO/SMO Expert",
   },
 ];
-
 export const testimonials5 = [
   {
     text: "The Ontario Heat Pump Rebate made the switch to a heat pump a breeze. I saved $7,500 and now my home is comfortable all year round. Highly recommended!",

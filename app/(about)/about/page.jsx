@@ -85,7 +85,7 @@ export default function AboutPage() {
                       energy-efficient heating and cooling solutions, we
                       specialize in assisting both residential and commercial
                       clients in navigating the complexities of heat pump
-                      rebates and installations.
+                      rebates and installations.p
                     </p>
                     <div
                       className="local-scroll wow fadeInUp"

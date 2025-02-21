@@ -232,7 +232,6 @@ export const services6 = [
     text: "A brand is a name, term, design, lorem ipsum symbol or any other feature that identifies one seller's good or service as distinct from those of other sellers.",
   },
 ];
-
 export const services7 = [
   {
     src: "/assets/images/demo-fancy/services/service-1.png",

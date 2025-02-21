@@ -30,7 +30,7 @@ export const numberItems2 = [
     title: "95",
     description:
       "Check Eligibility: Use our online tool to quickly see if you qualify for a rebate from Enbridge and IESO under the new Home Improvement Savings Program.",
-    extraClass: "mb-sm-10",
+    extraClass: "",
   },
   {
     id: 2,
@@ -47,6 +47,7 @@ export const numberItems2 = [
     extraClass: "",
   },
 ];
+
 export const numberItems3 = [
   {
     id: 1,

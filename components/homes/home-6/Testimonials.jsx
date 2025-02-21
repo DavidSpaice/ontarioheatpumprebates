@@ -46,7 +46,7 @@ export default function Testimonials() {
             <p className="section-descr mb-30">
               Join the Home Improvement Savings Program today and improve your
               home's energy efficiency with a streamlined rebate process. Here's
-              how to start saving with your new heat pump installation:
+              how to start saving with your new heat pump installation:{" "}
             </p>
             {/* Numbers */}
             <div className="col">

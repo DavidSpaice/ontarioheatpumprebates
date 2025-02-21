@@ -93,16 +93,15 @@ export default function HeatPumpsPage() {
                 <div className="row position-relative">
                   <div className="col-md-6 col-lg-5 mb-md-50 mb-sm-30">
                     <h2 className="section-caption-fancy mb-20 mb-xs-10">
-                      how to choose
+                      HOW TO SELECT
                     </h2>
                     <h3 className="section-title mb-30">
                       Choosing the Perfect Heat Pump
                     </h3>
                     <p className="text-gray mb-0">
-                      Choosing the right heat pump is important for maintaining
-                      an efficient, comfortable, and budget-friendly home
-                      environment. Here are some key factors to consider before
-                      making your decision:
+                      Keeping your home warm, economical, and efficient requires
+                      selecting the correct heat pump. Before making your
+                      choice, take into account the following important factors:
                     </p>
                   </div>
                   <div className="col-md-6 offset-lg-1 pt-10 pt-sm-0">
