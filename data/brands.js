@@ -1,7 +1,7 @@
 export const brands = [
   "/assets/images/demo-fancy/logotypes/client-1.png",
   "/assets/images/demo-fancy/logotypes/client-2.png",
-  "/assets/images/demo-fancy/logotypes/client-3.png",
+  // "/assets/images/demo-fancy/logotypes/client-3.png",
   "/assets/images/demo-fancy/logotypes/client-4.png",
   "/assets/images/demo-fancy/logotypes/client-5.png",
   "/assets/images/demo-fancy/logotypes/client-6.png",
@@ -13,7 +13,7 @@ export const brands = [
 export const brandsDark = [
   "/assets/images/demo-fancy/logotypes/dark/client-1.png",
   "/assets/images/demo-fancy/logotypes/dark/client-2.png",
-  "/assets/images/demo-fancy/logotypes/dark/client-3.png",
+  // "/assets/images/demo-fancy/logotypes/dark/client-3.png",
   "/assets/images/demo-fancy/logotypes/dark/client-4.png",
   "/assets/images/demo-fancy/logotypes/dark/client-5.png",
   "/assets/images/demo-fancy/logotypes/dark/client-6.png",

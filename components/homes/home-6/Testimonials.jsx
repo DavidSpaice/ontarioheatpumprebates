@@ -44,7 +44,7 @@ export default function Testimonials() {
               3 Easy Steps to Bigger Savings
             </h3>
             <p className="section-descr mb-30">
-              Join the Home Improvement Savings Program today and improve your
+              Join the Home Renovation Savings Program today and improve your
               home's energy efficiency with a streamlined rebate process. Here's
               how to start saving with your new heat pump installation:{" "}
             </p>

@@ -49,7 +49,7 @@ export default function Features() {
             <p className="section-descr mb-30">
               Take advantage of Ontario's generous rebate programs when you
               upgrade to a high-efficiency heat pump. Through initiatives like
-              the Ontario Home Energy Savings Program and the Canada Green Homes
+              the Ontario Home Renovation Savings Program and the Canada Green Homes
               Grant, eligible homeowners can save up to $7,500.
             </p>
             <p className="section-descr mb-30">
