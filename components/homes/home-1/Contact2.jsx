@@ -58,7 +58,7 @@ export default function Contact2() {
                       ibthemes21@gmail.com
                     </a>
                   </div>
-                  <div>+1 837 652 8800</div>
+                  <div>+1 888 407 1636 </div>
                 </div>
               </div>
             </div>

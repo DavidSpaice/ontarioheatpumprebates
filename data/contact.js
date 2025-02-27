@@ -22,9 +22,9 @@ export const contactItems = [
   {
     iconClass: "mi-mobile",
     title: "Phone",
-    text: "+1 837 652 8800",
+    text: "+1 888 407 1636 ",
     link: {
-      url: "tel:+61383767284",
+      url: "tel:+18884071636",
       text: "Call now",
     },
   },

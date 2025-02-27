@@ -27,7 +27,7 @@ export default function Footer6() {
           </p>
           <div className="clearlinks">
             <strong>T.</strong>
-            <a href="tel:+18376528800">+1 837 652 8800</a>
+            <a href="tel:+18884071636 ">+1 888 407 1636 </a>
           </div>
           <div className="clearlinks">
             <strong>E.</strong>

@@ -32,11 +32,11 @@ export default function Contact({ heading }) {
           </div>
           <div>
             <a
-              href="tel:+18376528800"
+              href="tel:+18884071636 "
               className="link-hover-anim align-middle"
               data-link-animate="y"
             >
-              +1 837 652 8800
+              +1 888 407 1636 
             </a>
           </div>
         </div>
