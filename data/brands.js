@@ -9,6 +9,13 @@ export const brands = [
   "/assets/images/demo-fancy/logotypes/client-8.png",
   "/assets/images/demo-fancy/logotypes/client-9.png",
   "/assets/images/demo-fancy/logotypes/client-10.png",
+  "/assets/images/demo-fancy/logotypes/client-11.png",
+  "/assets/images/demo-fancy/logotypes/client-12.png",
+  "/assets/images/demo-fancy/logotypes/client-13.png",
+  "/assets/images/demo-fancy/logotypes/client-14.png",
+  "/assets/images/demo-fancy/logotypes/client-15.png",
+  "/assets/images/demo-fancy/logotypes/client-16.png",
+  "/assets/images/demo-fancy/logotypes/client-17.png",
 ];
 export const brandsDark = [
   "/assets/images/demo-fancy/logotypes/dark/client-1.png",
@@ -19,6 +26,13 @@ export const brandsDark = [
   "/assets/images/demo-fancy/logotypes/dark/client-6.png",
   "/assets/images/demo-fancy/logotypes/dark/client-1.png",
   "/assets/images/demo-fancy/logotypes/dark/client-2.png",
+  "/assets/images/demo-fancy/logotypes/client-11.png",
+  "/assets/images/demo-fancy/logotypes/client-12.png",
+  "/assets/images/demo-fancy/logotypes/client-13.png",
+  "/assets/images/demo-fancy/logotypes/client-14.png",
+  "/assets/images/demo-fancy/logotypes/client-15.png",
+  "/assets/images/demo-fancy/logotypes/client-16.png",
+  "/assets/images/demo-fancy/logotypes/client-17.png",
 ];
 
 export const clients = [

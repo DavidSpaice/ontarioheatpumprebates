@@ -74,16 +74,106 @@ export default function HeatPumpRebatesPage() {
                     <p className="mb-20">
                       Looking to upgrade your home's heating system? A heat pump
                       can significantly lower your energy bills while keeping
-                      your home comfortable year-round. With generous government
-                      rebates available, there's no better time to make the
-                      switch.
+                      your home comfortable year-round. With generous federal,
+                      provincial, and municipal rebate and loan programs
+                      available, there's no better time to make the switch.
                     </p>
 
                     <h3 className="fw-bold mb-10">
-                      Heat Pump Rebates Ontario: Save Money & Go Green
+                      Available Rebates & Programs in Ontario
                     </h3>
                     <p>
-                      Explore different heat pump systems and potential savings:
+                      Take advantage of these rebates and financing options:
+                    </p>
+                    <ul className="list-unstyled">
+                      <li>
+                        <strong>Canada Greener Homes Grant:</strong> Receive up
+                        to $5,600 in grants for home energy-efficiency upgrades,
+                        including heat pumps.
+                        <a
+                          href="https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative"
+                          target="_blank"
+                        >
+                          Learn More
+                        </a>
+                      </li>
+                      <li>
+                        <strong>Canada Greener Homes Loan:</strong> Access up to
+                        $40,000 in interest-free financing for eligible
+                        retrofits, including heat pump installations.
+                        <a
+                          href="https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-loan"
+                          target="_blank"
+                        >
+                          Learn More
+                        </a>
+                      </li>
+                      <li>
+                        <strong>
+                          Save on Energy – Energy Affordability Program:
+                        </strong>{" "}
+                        Offers free or low-cost energy-efficiency upgrades,
+                        including support for heat pumps, depending on income
+                        eligibility.
+                        <a
+                          href="https://saveonenergy.ca/en/For-Your-Home/Energy-Affordability-Program"
+                          target="_blank"
+                        >
+                          Learn More
+                        </a>
+                      </li>
+                      <li>
+                        <strong>
+                          City of Toronto: Home Energy Loan Program (HELP):
+                        </strong>{" "}
+                        Low-interest loans of up to $75,000 for home energy
+                        improvements, including heat pump installations.
+                        <a
+                          href="https://www.toronto.ca/services-payments/water-environment/environmental-grants-incentives/home-energy-loan-program-help/"
+                          target="_blank"
+                        >
+                          Learn More
+                        </a>
+                      </li>
+                      <li>
+                        <strong>
+                          City of Ottawa: Better Homes Loan Program:
+                        </strong>{" "}
+                        Low-interest financing for residential energy retrofits,
+                        including heat pumps.
+                        <a
+                          href="https://betterhomesottawa.ca/rebate-and-incentive-programs/better-homes-loan-program/"
+                          target="_blank"
+                        >
+                          Learn More
+                        </a>
+                      </li>
+                    </ul>
+
+                    <p>
+                      For additional information on rebates, visit the
+                      <a
+                        href="https://www.rbcroyalbank.com/en-ca/my-money-matters/goals-aspirations/buying-a-home/home-building-and-renovations/which-rebates-and-grants-are-available-for-heat-pumps-in-canada/"
+                        target="_blank"
+                      >
+                        RBC Guide to Heat Pump Rebates
+                      </a>
+                      or
+                      <a
+                        href="https://www.homerenovationsavings.ca/"
+                        target="_blank"
+                      >
+                        Home Renovation Savings
+                      </a>
+                      .
+                    </p>
+
+                    <h3 className="fw-bold mb-10">
+                      Potential Savings by Heat Pump Type
+                    </h3>
+                    <p>
+                      Explore different heat pump systems and potential rebate
+                      amounts:
                     </p>
                     <ul className="list-unstyled">
                       <li>
@@ -91,17 +181,48 @@ export default function HeatPumpRebatesPage() {
                         $4,000
                       </li>
                       <li>
-                        <strong>Ground-Source Heat Pump:</strong> Rebates up to
-                        $7,500
+                        <strong>Ground-Source (Geothermal) Heat Pump:</strong>{" "}
+                        Rebates up to $7,500
                       </li>
                       <li>
                         <strong>Hybrid Heat Pump:</strong> Rebates up to $3,000
                       </li>
                     </ul>
                     <p>
-                      **Federal Interest-Free Loan:** Access up to{" "}
-                      <strong>$40,000</strong> in interest-free financing for
-                      home retrofits and heat pump upgrades.
+                      <em>
+                        Exact amounts may vary depending on program guidelines
+                        and home energy evaluation results.
+                      </em>
+                    </p>
+
+                    <h3 className="fw-bold mb-10">Get Started Today</h3>
+                    <ol>
+                      <li>
+                        <strong>Assess Your Home:</strong> Book a home energy
+                        evaluation to confirm eligibility and identify the best
+                        heat pump option.
+                      </li>
+                      <li>
+                        <strong>Compare Programs:</strong> Combine federal,
+                        provincial, and municipal rebates and loans to maximize
+                        your total savings.
+                      </li>
+                      <li>
+                        <strong>Apply for Rebates & Loans:</strong> Secure
+                        funding through the Canada Greener Homes Grant & Loan,
+                        Save on Energy, or municipal programs.
+                      </li>
+                      <li>
+                        <strong>Schedule Installation:</strong> Hire a certified
+                        contractor to ensure proper sizing and installation of
+                        your new heat pump.
+                      </li>
+                    </ol>
+
+                    <p>
+                      By stacking grants, rebates, and interest-free loans, you
+                      can significantly lower your out-of-pocket costs—and enjoy
+                      comfort and savings for years to come.
                     </p>
                   </div>
 
