@@ -97,7 +97,6 @@ export default function HowToApplyRebatesPage() {
                 </div>
               </div>
             </section>
-
             {/* Intro & Form Section */}
             <section className="page-section" style={{ paddingTop: "60px" }}>
               <div className="container position-relative">
