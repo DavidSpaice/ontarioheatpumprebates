@@ -109,85 +109,38 @@ export default function HowToApplyRebatesPage() {
                     </h2>
                     <p className="mb-20">
                       At Heat Pump Rebates Ontario, we're here to help you
-                      navigate the process of securing rebates of up to{" "}
-                      <strong>$7,500</strong> (or more, when combined with
-                      federal and municipal programs) for upgrading your home's
-                      heating system with an energy-efficient heat pump. As a
-                      recognized contractor supported by Enbridge &amp; other
-                      local initiatives, we offer peace of mind during your
-                      energy upgrade, contributing to a greener Ontario.
+                      secure rebates of up to
+                      <strong>$7,500</strong> through the
+                      <a
+                        href="https://www.homerenovationsavings.ca/"
+                        target="_blank"
+                      >
+                        Home Renovation Savings
+                      </a>
+                      program. As a recognized contractor, we offer peace of
+                      mind during your energy upgrade, contributing to a greener
+                      Ontario.
                     </p>
 
                     <h4 className="fw-bold mt-4">Eligibility Requirements</h4>
                     <div>
                       <strong>Home Requirements:</strong>
                       <ul>
+                        <li>Property must be located in Ontario</li>
                         <li>
-                          Must be in Ontario and occupied primarily for at least
-                          one year
+                          Single-family homes, row housing, or semi-detached
+                          properties typically qualify
                         </li>
                         <li>
-                          Eligible properties typically include single-family
-                          homes, row housing, or semi-detached homes
-                        </li>
-                        <li>
-                          Multi-unit buildings or rental units with separate
-                          meters may qualify
+                          Multi-unit buildings or rental units may be eligible
+                          under certain conditions
                         </li>
                       </ul>
                       <strong>Utility Requirements:</strong>
                       <ul>
                         <li>
-                          Must be served by a qualifying utility (e.g.,
-                          Enbridge) or municipality
-                        </li>
-                      </ul>
-                      <strong>Program-Specific Requirements:</strong>
-                      <ul>
-                        <li>
-                          For the
-                          <a
-                            href="https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative"
-                            target="_blank"
-                          >
-                            Canada Greener Homes Grant
-                          </a>
-                          and the
-                          <a
-                            href="https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-loan"
-                            target="_blank"
-                          >
-                            Canada Greener Homes Loan
-                          </a>
-                          , you must complete a pre- and post-retrofit home
-                          energy evaluation.
-                        </li>
-                        <li>
-                          The
-                          <a
-                            href="https://saveonenergy.ca/en/For-Your-Home/Energy-Affordability-Program"
-                            target="_blank"
-                          >
-                            Save on Energy – Energy Affordability Program
-                          </a>
-                          may have income-based eligibility criteria.
-                        </li>
-                        <li>
-                          Municipal programs (such as the
-                          <a
-                            href="https://www.toronto.ca/services-payments/water-environment/environmental-grants-incentives/home-energy-loan-program-help/"
-                            target="_blank"
-                          >
-                            Toronto Home Energy Loan Program (HELP)
-                          </a>
-                          and the
-                          <a
-                            href="https://betterhomesottawa.ca/rebate-and-incentive-programs/better-homes-loan-program/"
-                            target="_blank"
-                          >
-                            Ottawa Better Homes Loan Program
-                          </a>
-                          ) have property tax-based financing requirements.
+                          Home must be served by a participating utility or
+                          municipality
                         </li>
                       </ul>
                     </div>
@@ -195,12 +148,9 @@ export default function HowToApplyRebatesPage() {
                     <h4 className="fw-bold mt-4">Installation Requirements</h4>
                     <p>
                       Purchase your heat pump from an authorized dealer or
-                      installer. To qualify for rebates, many programs require a
-                      verified installation report confirming that your new
-                      system meets the relevant efficiency criteria (e.g.,
-                      ENERGY STAR® certification). Always check the specific
-                      guidelines for each program to ensure your heat pump model
-                      and installer are eligible.
+                      installer to qualify for the Home Renovation Savings
+                      program. Installations must meet efficiency standards and
+                      program guidelines.
                     </p>
 
                     <h4 className="fw-bold mt-4">
@@ -208,86 +158,36 @@ export default function HowToApplyRebatesPage() {
                     </h4>
                     <ol className="mb-4">
                       <li>
-                        <strong>Check Your Eligibility:</strong>
-                        Confirm that you meet the basic requirements for the
-                        rebate programs you wish to apply for (e.g., Canada
-                        Greener Homes Grant, Save on Energy, municipal loans).
-                        <br />
-                        <em>
-                          Tip: Contact Heat Pump Rebates Ontario to see how your
-                          home qualifies under different rebate and financing
-                          initiatives.
-                        </em>
+                        <strong>Check Eligibility:</strong>
+                        Ensure your home and chosen heat pump meet the criteria
+                        set by the Home Renovation Savings program. Contact Heat
+                        Pump Rebates Ontario to verify eligibility.
                       </li>
                       <li>
-                        <strong>
-                          Complete a Home Energy Assessment (If Required):
-                        </strong>
-                        Many programs, especially federal ones, require a
-                        pre-retrofit energy evaluation to confirm the current
-                        state of your home. This will guide recommended upgrades
-                        and ensure you qualify for available incentives.
-                      </li>
-                      <li>
-                        <strong>Purchase &amp; Install:</strong>
-                        Select the right heat pump that meets the program's
-                        efficiency standards. Our team will help you confirm
-                        paperwork and ensure you're positioned for maximum
-                        rebate eligibility.
+                        <strong>Purchase & Install:</strong>
+                        Select a qualifying heat pump model that meets the
+                        program's efficiency requirements. We'll help confirm
+                        the necessary paperwork to keep your rebate on track.
                       </li>
                       <li>
                         <strong>Professional Installation:</strong>
                         Our certified technicians at Heat Pump Rebates Ontario
-                        will handle the installation while adhering to
-                        provincial and municipal guidelines. This professional
-                        approach ensures a seamless, compliant upgrade.
+                        handle the entire installation process, ensuring it
+                        meets program and safety guidelines.
                       </li>
                       <li>
-                        <strong>
-                          Post-Installation Evaluation (If Required):
-                        </strong>
-                        For programs like the Canada Greener Homes Grant, you
-                        may need a post-retrofit energy evaluation to verify
-                        efficiency improvements.
-                      </li>
-                      <li>
-                        <strong>Submit Your Rebate Application:</strong>
-                        Once your system is in place, we'll guide you through
-                        the application process—collecting receipts, model
-                        details, and any required evaluation reports. Timely
-                        submission ensures quicker rebate payouts or loan
-                        approvals.
+                        <strong>Submit Your Application:</strong>
+                        After installation, we'll guide you through submitting
+                        the rebate application— including receipts, model
+                        details, and any required verification.
                       </li>
                     </ol>
 
-                    <h4 className="fw-bold mt-4">Additional Resources</h4>
                     <p>
-                      For more detailed information on available programs and
-                      how to apply:
-                    </p>
-                    <ul>
-                      <li>
-                        <a
-                          href="https://www.rbcroyalbank.com/en-ca/my-money-matters/goals-aspirations/buying-a-home/home-building-and-renovations/which-rebates-and-grants-are-available-for-heat-pumps-in-canada/"
-                          target="_blank"
-                        >
-                          RBC Guide to Heat Pump Rebates
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.homerenovationsavings.ca/"
-                          target="_blank"
-                        >
-                          Home Renovation Savings
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      Ready to start saving? Contact Heat Pump Rebates Ontario
-                      to learn more about how you can combine various government
-                      incentives and low-interest loan programs to make your
-                      heat pump upgrade more affordable.
+                      <em>Ready to get started?</em> Contact Heat Pump Rebates
+                      Ontario today to learn how to streamline your application
+                      and maximize your rebate through the Home Renovation
+                      Savings program.
                     </p>
                   </div>
 
