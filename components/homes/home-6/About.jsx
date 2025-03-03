@@ -91,7 +91,7 @@ export default function About() {
           <div className="composition-3">
             <div className="composition-3-image-1">
               <Image
-                src="/assets/images/demo-fancy/section-image-6.png"
+                src="/assets/images/demo-fancy/section-image-6.jpg"
                 width={500}
                 height={372}
                 alt="Image Description"

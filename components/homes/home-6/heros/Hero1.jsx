@@ -90,7 +90,7 @@ export default function Hero1() {
               <div className="w-100 wow fadeInLeft" data-wow-delay="0.7s">
                 <div className="position-relative mt-40 mb-20">
                   <Image
-                    src="/assets/images/demo-fancy/hs-image.png"
+                    src="/assets/images/demo-fancy/hs-image.jpg"
                     width={1200}
                     height={678}
                     alt="Image Description"
