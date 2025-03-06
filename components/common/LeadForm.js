@@ -134,8 +134,8 @@ export default function LeadForm({ title, description }) {
             <div className="form-tip w-100 pt-3 mt-sm-20">
               <i className="icon-info size-16" />
               All fields are required. By sending the form, you agree to the{" "}
-              <a href="#">Terms &amp; Conditions</a> and{" "}
-              <a href="#">Privacy Policy</a>.
+              <a href="/terms-and-conditions">Terms &amp; Conditions</a> and{" "}
+              <a href="/privacy-policy">Privacy Policy</a>.
             </div>
           </div>
         </div>
