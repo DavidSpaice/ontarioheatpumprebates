@@ -83,11 +83,11 @@ export default function ContactPage() {
                         Frequently Asked Questions
                       </h3>
                       <p className="text-gray mb-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nam pulvinar vitae neque et porttitor. Integer non
-                        dapibus diam, ac eleifend lectus lorem ipsum. In maximus
-                        ligula semper metus pellentesque mattis. Maecenas
-                        volutpat, diam enim sagittis quam.
+                        Here are some frequently asked questions about the heat
+                        pump rebate program in Ontario. We've provided answers
+                        to help you better understand eligibility, application
+                        requirements, and other key details to make the process
+                        as smooth as possible.
                       </p>
                     </div>
                     <div className="col-md-6 offset-lg-1 pt-10 pt-sm-0">

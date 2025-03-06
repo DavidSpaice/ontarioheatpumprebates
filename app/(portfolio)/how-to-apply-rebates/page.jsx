@@ -104,42 +104,40 @@ export default function HowToApplyRebatesPage() {
                   {/* Left Column: Intro */}
                   <div className="col-lg-8">
                     <h2 className="mb-4 fw-bold">
-                      Streamline Your Path to Energy Savings
+                      How to Apply for Heat Pump Rebates in Ontario
                     </h2>
                     <p className="mb-20">
                       At Heat Pump Rebates Ontario, we're here to help you
                       secure rebates of up to
-                      <strong>$7,500</strong> through the
-                      <a
-                        href="https://www.homerenovationsavings.ca/"
-                        target="_blank"
-                      >
-                        Home Renovation Savings
-                      </a>
-                      program. As a recognized contractor, we offer peace of
-                      mind during your energy upgrade, contributing to a greener
-                      Ontario.
+                      <strong> $7,500</strong> through the <a
+                      href="https://www.homerenovationsavings.ca/"
+                      target="_blank"
+                    >
+                      Home Renovation Savings
+                    </a> program. As a recognized contractor, we offer
+                      peace of mind during your energy upgrade, contributing to
+                      a greener Ontario.
                     </p>
 
                     <h4 className="fw-bold mt-4">Eligibility Requirements</h4>
                     <div>
                       <strong>Home Requirements:</strong>
                       <ul>
-                        <li>Property must be located in Ontario</li>
+                        <li>Property must be located in Ontario.</li>
                         <li>
                           Single-family homes, row housing, or semi-detached
-                          properties typically qualify
+                          properties typically qualify.
                         </li>
                         <li>
                           Multi-unit buildings or rental units may be eligible
-                          under certain conditions
+                          under certain conditions.
                         </li>
                       </ul>
                       <strong>Utility Requirements:</strong>
                       <ul>
                         <li>
                           Home must be served by a participating utility or
-                          municipality
+                          municipality.
                         </li>
                       </ul>
                     </div>
@@ -157,28 +155,28 @@ export default function HowToApplyRebatesPage() {
                     </h4>
                     <ol className="mb-4">
                       <li>
-                        <strong>Check Eligibility:</strong>
-                        Ensure your home and chosen heat pump meet the criteria
-                        set by the Home Renovation Savings program. Contact Heat
-                        Pump Rebates Ontario to verify eligibility.
+                        <strong>Check Eligibility:</strong> Ensure your home and
+                        chosen heat pump meet the criteria set by the Home
+                        Renovation Savings program. Contact Heat Pump Rebates
+                        Ontario to verify eligibility.
                       </li>
                       <li>
-                        <strong>Purchase & Install:</strong>
-                        Select a qualifying heat pump model that meets the
-                        program's efficiency requirements. We'll help confirm
-                        the necessary paperwork to keep your rebate on track.
+                        <strong>Purchase &amp; Install:</strong> Select a
+                        qualifying heat pump model that meets the program's
+                        efficiency requirements. We'll help confirm the
+                        necessary paperwork to keep your rebate on track.
                       </li>
                       <li>
-                        <strong>Professional Installation:</strong>
-                        Our certified technicians at Heat Pump Rebates Ontario
+                        <strong>Professional Installation:</strong> Our
+                        certified technicians at Heat Pump Rebates Ontario
                         handle the entire installation process, ensuring it
                         meets program and safety guidelines.
                       </li>
                       <li>
-                        <strong>Submit Your Application:</strong>
-                        After installation, we'll guide you through submitting
-                        the rebate application— including receipts, model
-                        details, and any required verification.
+                        <strong>Submit Your Application:</strong> After
+                        installation, we'll guide you through submitting the
+                        rebate application—including receipts, model details,
+                        and any required verification.
                       </li>
                     </ol>
 
@@ -202,7 +200,7 @@ export default function HowToApplyRebatesPage() {
             </section>
 
             {/* Available Rebates Section */}
-            <section className="page-section">
+          {/*   <section className="page-section">
               <div className="container">
                 <h3 className="fw-bold mb-4">Available Rebates in Ontario</h3>
                 <p>
@@ -224,7 +222,7 @@ export default function HowToApplyRebatesPage() {
                   </li>
                 </ul>
               </div>
-            </section>
+            </section> */}
 
             {/* Why Choose Us Section */}
             <section className="page-section">

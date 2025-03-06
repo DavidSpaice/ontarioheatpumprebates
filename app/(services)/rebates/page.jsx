@@ -74,14 +74,12 @@ export default function HeatPumpRebatesPage() {
                     <p className="mb-20">
                       Looking to upgrade your home's heating system? A heat pump
                       can significantly lower your energy bills while keeping
-                      your home comfortable year-round. Thanks to the
-                      <a
+                      your home comfortable year-round. Thanks to the <a
                         href="https://www.homerenovationsavings.ca/"
                         target="_blank"
                       >
                         Home Renovation Savings
-                      </a>
-                      program, there's no better time to make the switch.
+                      </a> program, there's no better time to make the switch.
                     </p>
 
                     <h3 className="fw-bold mb-10">Potential Savings</h3>

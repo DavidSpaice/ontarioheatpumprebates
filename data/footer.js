@@ -1,6 +1,6 @@
 export const footerLinks = [
-  { name: "Privacy Policy", path: "#" },
-  { name: "Terms & Conditions", path: "#" },
+  { name: "Privacy Policy", path: "/privacy-policy" },
+  { name: "Terms & Conditions", path: "/terms-and-conditions" },
 ];
 
 export const footerLinks2 = [

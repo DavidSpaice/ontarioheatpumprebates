@@ -40,11 +40,11 @@ export default function Hero1() {
                   data-wow-offset={0}
                 >
                   The Ontario Heat Pump Rebate helps Ontario homeowners explore
-                  and combine government programs like the Canada Green Homes
-                  Grant and Enbridge Home Efficiency Rebate to maximize their
-                  savings. You can earn up to $7,500 in rebates when you switch
-                  to an energy-efficient heat pump, making your home greener,
-                  more comfortable, and more cost-effective.
+                  and combine government programs like the Home Renovation
+                  Savings program to maximize their savings. You can earn up to
+                  $7,500 in rebates when you switch to an energy-efficient heat
+                  pump, making your home greener, more comfortable, and more
+                  cost-effective.
                 </p>
                 <div
                   className="local-scroll wow fadeInUp wch-unset"
