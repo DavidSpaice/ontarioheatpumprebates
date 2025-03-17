@@ -1,5 +1,6 @@
 "use client";
 import { useEffect } from "react";
+import Script from "next/script"; // <-- ADD THIS
 import "swiper/css";
 import "../public/assets/css/styles.css";
 import "jarallax/dist/jarallax.min.css";
@@ -19,7 +20,8 @@ export default function RootLayout({ children }) {
   useEffect(() => {
     init_wow();
     parallaxMouseMovement();
-    var mainNav = document.querySelector(".main-nav");
+
+    const mainNav = document.querySelector(".main-nav");
     if (mainNav?.classList.contains("transparent")) {
       mainNav.classList.add("js-transparent");
     } else if (!mainNav?.classList?.contains("dark")) {
@@ -32,18 +34,18 @@ export default function RootLayout({ children }) {
       window.removeEventListener("scroll", headerChangeOnScroll);
     };
   }, [path]);
+
+  // Bootstrap JS import (client-side only)
   useEffect(() => {
     if (typeof window !== "undefined") {
-      // Import the script only on the client side
-      import("bootstrap/dist/js/bootstrap.esm").then(() => {
-        // Module is imported, you can access any exported functionality if
-      });
+      import("bootstrap/dist/js/bootstrap.esm");
     }
   }, []);
 
   return (
     <html lang="en" className="no-mobile no-touch ">
       <head>
+        {/* Google Fonts */}
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
           rel="stylesheet"
@@ -64,10 +66,21 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
           rel="stylesheet"
         />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"
-          rel="stylesheet"
+
+        {/* GA4 Script (placed in the <head>, loaded after interactive) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-WYZRGHVWQY"
+          strategy="afterInteractive"
+          async
         />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-WYZRGHVWQY');
+          `}
+        </Script>
       </head>
       <body className="appear-animate body">{children}</body>
     </html>
