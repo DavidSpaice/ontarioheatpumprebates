@@ -45,6 +45,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="no-mobile no-touch ">
       <head>
+        {/* GA4 Script (placed in the <head>, loaded after interactive) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-WYZRGHVWQY"
+          strategy="afterInteractive"
+          async
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-WYZRGHVWQY');
+       `}
+        </Script>
         {/* Google Fonts */}
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
@@ -66,21 +80,6 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
           rel="stylesheet"
         />
-
-        {/* GA4 Script (placed in the <head>, loaded after interactive) */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-WYZRGHVWQY"
-          strategy="afterInteractive"
-          async
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-WYZRGHVWQY');
-          `}
-        </Script>
       </head>
       <body className="appear-animate body">{children}</body>
     </html>
